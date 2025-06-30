@@ -12,7 +12,7 @@ from filelock import FileLock
 
 from lumokit.api import router
 from helper.custom_errors import GenericError
-from settings.db import engine, get_db
+from lumokit.settings.db import engine, get_db
 
 ###/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\###
 ###/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\###
