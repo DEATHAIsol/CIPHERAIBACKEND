@@ -6,7 +6,7 @@ authors = ["Lumo Labs <labslumo@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.11,<=3.13"
+python = ">=3.11,<=3.14"
 fastapi = "^0.114.0"
 uvicorn = "^0.30.6"
 python-jose = "^3.3.0"
