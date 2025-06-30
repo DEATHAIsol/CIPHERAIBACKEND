@@ -3,7 +3,7 @@ from typing import List
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
-from settings.db import get_db
+from lumokit.settings.db import get_db
 
 from .controllers import (authenticate_with_signature, check_user_pro_status,
                           generate_new_wallet, get_wallet_portfolio_ds,

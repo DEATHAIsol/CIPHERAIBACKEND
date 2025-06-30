@@ -3,7 +3,7 @@ from typing import List
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
-from settings.db import get_db
+from lumokit.settings.db import get_db
 
 from .controllers import (get_conversation_history, get_last_conversations,
                           process_chat_request)

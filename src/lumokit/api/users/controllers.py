@@ -20,9 +20,9 @@ from sqlalchemy.orm import Session
 from models.login_logs import LoginLogs
 from models.transactions import Transaction
 from models.users import User
-from settings.config import CONFIG
-from settings.db import get_db
-from settings.logger import logger
+from lumokit.settings.config import CONFIG
+from lumokit.settings.db import get_db
+from lumokit.settings.logger import logger
 
 from .schema import ProUpgradeRequest, UserAuthRequest, UserProStatusRequest
 
