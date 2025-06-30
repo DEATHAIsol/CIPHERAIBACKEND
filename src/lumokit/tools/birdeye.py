@@ -4,8 +4,8 @@ import aiohttp
 from langchain.tools import BaseTool
 from pydantic import BaseModel, Field
 
-from settings.config import CONFIG
-from settings.logger import logger
+from lumokit.settings.config import CONFIG
+from lumokit.settings.logger import logger
 
 #################################################
 #### BIRDEYE TOKEN TRENDING TOOL ####

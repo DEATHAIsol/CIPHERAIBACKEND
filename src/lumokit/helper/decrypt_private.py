@@ -4,8 +4,8 @@ from cryptography.fernet import Fernet
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
-from settings.config import CONFIG
-from settings.logger import logger
+from lumokit.settings.config import CONFIG
+from lumokit.settings.logger import logger
 
 
 async def derive_key_from_salt() -> bytes:

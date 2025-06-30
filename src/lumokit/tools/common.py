@@ -5,7 +5,7 @@ from langchain.tools import BaseTool
 from pydantic import BaseModel, Field
 
 from lumokit.api.users.controllers import get_wallet_portfolio_ds
-from settings.logger import logger
+from lumokit.settings.logger import logger
 
 #################################################
 #### WALLET PORTFOLIO TOOL ####

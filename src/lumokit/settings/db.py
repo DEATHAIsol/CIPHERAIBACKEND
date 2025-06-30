@@ -3,7 +3,7 @@ from fastapi import HTTPException
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from settings.config import CONFIG
+from lumokit.settings.config import CONFIG
 
 DATABASE_URL = CONFIG.DATABASE_URL
 engine = create_engine(DATABASE_URL)

@@ -3,7 +3,7 @@ from datetime import datetime
 
 import pytz
 
-from settings.config import CONFIG
+from lumokit.settings.config import CONFIG
 
 logger = logging.getLogger("LUMOKIT API")
 log_level = CONFIG.LOG_LEVEL

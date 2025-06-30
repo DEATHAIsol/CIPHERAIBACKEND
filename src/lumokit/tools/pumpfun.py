@@ -26,9 +26,9 @@ from spl.token.constants import TOKEN_PROGRAM_ID
 from spl.token.instructions import (create_associated_token_account,
                                     get_associated_token_address)
 
-from helper.decrypt_private import WalletDecryptor
-from settings.config import CONFIG
-from settings.logger import logger
+from lumokit.helper.decrypt_private import WalletDecryptor
+from lumokit.settings.config import CONFIG
+from lumokit.settings.logger import logger
 
 #################################################
 #### PUMP.FUN LAUNCH COIN TOOL ####

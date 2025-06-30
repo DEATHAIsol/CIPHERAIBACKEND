@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from langchain.tools import BaseTool
 from pydantic import BaseModel, Field
 
-from settings.logger import logger
+from lumokit.settings.logger import logger
 
 #################################################
 #### CRYPTO.NEWS MEMECOINS NEWS TOOL ####
