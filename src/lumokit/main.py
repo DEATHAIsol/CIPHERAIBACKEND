@@ -10,7 +10,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from filelock import FileLock
 
-from api import router
+from lumokit.api import router
 from helper.custom_errors import GenericError
 from settings.db import engine, get_db
 

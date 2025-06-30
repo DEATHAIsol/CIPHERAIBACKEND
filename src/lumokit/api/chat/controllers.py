@@ -19,7 +19,7 @@ from langchain_openai import ChatOpenAI
 from sqlalchemy import desc, func
 from sqlalchemy.orm import Session
 
-from api.users.controllers import check_user_pro_status, verify_signature
+from lumokit.api.users.controllers import check_user_pro_status, verify_signature
 from models.requests import Requests
 from models.users import User
 from settings.config import CONFIG

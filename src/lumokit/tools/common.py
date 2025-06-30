@@ -4,7 +4,7 @@ from typing import ClassVar, Dict, Optional, Type
 from langchain.tools import BaseTool
 from pydantic import BaseModel, Field
 
-from api.users.controllers import get_wallet_portfolio_ds
+from lumokit.api.users.controllers import get_wallet_portfolio_ds
 from settings.logger import logger
 
 #################################################
