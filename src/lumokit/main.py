@@ -46,6 +46,8 @@ origins = [
     "https://www.lumokit.netlify.app",
     "http://lumokit.netlify.app",
     "http://www.lumokit.netlify.app",
+    "https://www.cipherai.cc/", 
+    "http://www.cipherai.cc/"
 ]
 
 app.add_middleware(
